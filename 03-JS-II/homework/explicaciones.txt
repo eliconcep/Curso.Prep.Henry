@@ -1,0 +1,6 @@
+*El bucle 'for' se utiliza para repetir una o más instrucciones un determinado número de veces, el numero de veces que se repetira la instruccion esta definida por una condicion de parada que uno le asigna. El bucle for consta de trs expresiones, una variable de iniciacion, la condicion de parada y una expresion final que se evualuara al final dde cada iteracion del ciclo.
+
+*Existen los operadores logicos que son:
+-&&(AND): es un operador que evalua dos expresiones y devuelve true (verdadero) si y solo si ambas expresiones son verdadera en caso contrario si las dos son falsas o solo una expreseion devolvera false(falso).
+-||(OR): es un operador que evalua dos expresiones y devuelve true (verdadero) si las dos expresiones son verdaderas o una de ellas o false(falso) si las dos expresions son falsas.
+-!(NOT): es un operador que devueleve un valor booleano opuesto de la evaluacion de una expresion. 

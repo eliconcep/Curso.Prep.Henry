@@ -5,10 +5,16 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if (x>y){
+  if (x!=y){
+    if(x>y){
+      return x;
+    } else {
+      return y;
+    }
+  }
+  if (x===y){
     return x;
   }
-  return y;
 }
 
 function mayoriaDeEdad(edad) {
@@ -84,7 +90,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ( numero === 10 || numero === 5){
+  if ( (numero === 10) || (numero === 5)){
     return true;
   } else {
     return false;
@@ -193,7 +199,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   let tabla = [];
-  for (let i = 0 ; i < 11 ; i++){
+  for (var i = 0 ; i < 11 ; i++){
     tabla.push( 6 * i);
   }
   return tabla;
@@ -214,13 +220,12 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  var a = numero;
   var i = 0;
   do {
-    i  = i + 1;
-    a = a + 5
+    i++
+    numero = numero + 5
   } while (i < 8 );
-  return a;
+  return numero;
 }
 
 
