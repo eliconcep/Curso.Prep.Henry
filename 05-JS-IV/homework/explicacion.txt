@@ -1,0 +1,9 @@
+*Los Objetos son un tipo de datos que se utiliza para guardar mucha informacion sobre una cosa sola, es decir una coleccion de propiedades(clave-valor)
+
+*Las propiedades de los Objetos son una asociacion entre una clave y un valor. La clave es un identificador (nombre) y el valor es él que se quiere guardar en la clave, puede ser cualquier tipo de dato, una funcion que se la conoce como metodo o hasta otro objeto.
+
+*Los Metodos son las funciones (valor) guardadas en un objeto.
+
+*El bucle 'for...in' es un tipo de bucle similir al 'for' pero que se lo utiliza para iterar los objetos ya que los objetos no poseen indices como para ser iterados con el bucle for. El bucle 'for...in' va a iterar cada clave del objeto hasta que se hayan iterado todas las claves.
+
+*Para acceder a los valores que posee los objetos hay dos formas,notacion de putos y notacion de corchetes. La notacion de punto llama al valor del objeto escribiendo el nombre del objeto, un punto y el nombre de la clave y la notacion de corchetes llama al valor de un objeto escribiendo el nombre del objeto y entre corchetes el nombre del valor que se quiere acceder, el valor puede estar escrito como un string, un numero o una variable que apunte a la clave 

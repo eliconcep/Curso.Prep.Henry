@@ -38,9 +38,8 @@ function invocarMetodo(objeto, metodo) {
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
-  // Tu código:
-  var resultado = objetoMisterioso[numeroMisterioso]*5;
-  return resultado;
+  var multiplicacion = (objetoMisterioso.numeroMisterioso)*5;
+  return multiplicacion;
 
 }
 
@@ -69,7 +68,7 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if (usuario['email']){
+  if (usuario.email){
     return true;
   } else{
     return false;
@@ -106,9 +105,7 @@ function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  var usuario = {
-    password : 'password',
-  };
+
   usuario['password'] = nuevaPassword;
   return usuario;
 }
