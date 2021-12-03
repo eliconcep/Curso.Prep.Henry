@@ -26,11 +26,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  var arrayN =[];
   for (var i = 0 ; i < array.length ; i++){
-    arrayN [i] = array[i] + 1;
+    array [i] = array[i] + 1;
   }
-  return arrayN;
+  return array;
 }
 
 
@@ -59,8 +58,14 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  return palabras.join(' ');
-
+  var string = ''
+  for (var i = 0; i<palabras.length; i++){
+    string =string + palabras[i] ;
+    if (i<palabras.length-1){
+      string = string + ' ';
+    }
+  }
+  return string;
 }
 
 
@@ -121,7 +126,9 @@ function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
-  if(arguments.length < 1) return 0;
+  if(arguments.length < 1) {
+    return 0;
+  }
   var total = 1;
   for(var i = 0; i < arguments.length; i++) {
     total = total * arguments[i];
@@ -197,7 +204,7 @@ function mesesDelAño(array) {
   if (meses.length<3){
     return'No se encontraron los meses pedidos';
   } else{
-  return meses;
+    return meses;
   }
 }
 
@@ -228,7 +235,9 @@ function breakStatement(numero) {
   var suma = numero;
   for(var i= 0; i<10; i++) {
     suma = suma + 2;
-    if(suma === i) break;
+    if(suma === i) {
+      break;
+    }
     else {
       array.push(suma);
     }
@@ -252,7 +261,9 @@ function continueStatement(numero) {
   var array = [];
   var suma = numero;
   for(var i= 0; i<10; i++) {
-    if(i === 5) continue;
+    if(i === 5) {
+      continue;
+    }
     else {
       suma = suma + 2;
       array.push(suma);

@@ -1,0 +1,1 @@
+*Los Arrays son una coleccion de tipos de datos, es decir; tiene una estructura de una lista la cual contiene elementos que pueden ser de cualquier tipo de datos
