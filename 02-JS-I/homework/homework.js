@@ -66,8 +66,9 @@ function sonIguales(x, y) {
   // Tu código:
   if (x == y){
     return true;
+  } else {
+    return false;
   }
-  return false
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -76,8 +77,9 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1.length === str2.length){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function menosQueNoventa(num) {
@@ -86,8 +88,9 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num<90){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function mayorQueCincuenta(num) {
@@ -96,8 +99,9 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num>50){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function obtenerResto(x, y) {
@@ -113,8 +117,9 @@ function esPar(num) {
   // Tu código:
   if (num % 2===0){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function esImpar(num) {
@@ -123,8 +128,9 @@ function esImpar(num) {
   // Tu código:
   if (num % 2 != 0){
     return true;
+  } else {
+    return false;
   }
-  return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -264,8 +270,13 @@ function esVocal(letra){
     if (letra == 'u'){
       return 'Es vocal';
     }
+    else {
+      return 'Dato incorrecto';
+    }
+  } 
+  else {
+    return 'Dato incorrecto';
   }
-  return 'Dato incorrecto'
 }
 
 

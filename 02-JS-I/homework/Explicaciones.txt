@@ -1,0 +1,10 @@
+*Las Variables son un lugar reservado en el cual uno guarda un valor que uno le indica, este valor se lo puede usar cuando se desee.
+
+*Los String son un tipo de dato mas comunes, puede ser un solo caracter o una cadena de caracteres los cuales deben estar encerrados en comillas simples o dobles para que sea considerado un string.
+
+*Las Funciones son un bloque de codigo que nosotros creamos, utiliza un conjunto de variables para realizar una actividad especifica. Las funciones son creadas para no repetir un mismo codigo varias veces y minimizar el espacio de memoria por lo que son reutilizables en cualquier lado que se requiera, estas deben retornar un valor. 
+A las funciones se les pasa uns datos para que se ejecute el codigo que hicimos, estos datos son argumentos, los cuales pueden ser uno o varios dependiemdo que estamos queriendo hacer en nuestro coigo definido dentro de la funcion. Y cuando ha ejecutado el codigo con los argumentos que le pasamo, la funcion retorna un valor, es decir, devuelve un valor de todo el proceso que hio el codigo, esta devolucion se debe a la declaracion return, una ve que se llega a esta declaracion la funcion se da por terminada y se detiene inmediatamente.
+
+*La declaracion if verifica una expresion que se le pasa como condicion, el if ejecutara una sentencia si la condicion solo es verdadera de lo contrario no se ejecutara ya que es de manera obligatoria que la condicion sea verdadera(true) y si no es asi el codigo se omite y el programa seguira ejecutandose.
+
+*Los valores Booleanos son un tipo de dato que tiene dos significado true (verdadero) y false (false), son valores logicos 
