@@ -1,0 +1,47 @@
+body{
+    background-color: bisque;
+}
+
+img{
+    width: 150px;
+    height: 250px;
+    margin-left: 100px;
+    border: brown 1px solid;
+}
+#cabecera{
+    font-size: 50px;
+    margin-left: 25px;
+    background: salmon;
+}
+
+#derecha {
+    width: 700px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    margin-top: -850px;
+}
+#izquierda {
+    width: 300px;
+    margin-left: 25px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+#datos{
+
+}
+
+#otro {
+    width: 260px;
+    border-bottom: brown solid;
+    border-top: brown solid;
+    margin-left: 25px;
+}
+#partes{
+    border-top: brown solid;
+    border-bottom: brown solid;
+    margin-bottom: 20px;
+}
